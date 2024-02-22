@@ -1,0 +1,15 @@
+env:
+  num_states: 20
+  num_actions: 4
+  constraints: 1.
+  gamma: 0.8
+  trajectories: 20
+
+alg:
+  max_epoch: 100
+  batch_size: 32
+  fast_lr: 0.1
+  slow_lr: 0.03
+  lambda_lr: 0.1
+  gamma: 0.95
+  B: 10.

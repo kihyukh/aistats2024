@@ -1,0 +1,16 @@
+env:
+  env_name: "cartpole"
+  task_name: "realworld_swingup"
+  safety_coeff: 0.3
+  constraints: 50.
+
+
+alg:
+  dataset: "./results/datasets/cartpole/"
+  max_epoch: 30000
+  batch_size: 1024
+  fast_lr: 0.0003
+  slow_lr: 0.0001
+  lambdas_lr: 0.0003
+  gamma: 0.99
+  B: 50.

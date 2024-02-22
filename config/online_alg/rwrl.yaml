@@ -1,0 +1,12 @@
+env:
+  env_name: "cartpole"
+  task_name: "realworld_swingup"
+  safety_coeff: 0.3
+  lambda_: 1.5
+  random_seed: 0
+
+alg:
+  max_training_timesteps: 1_000_000
+
+dataset:
+  episodes: 1000

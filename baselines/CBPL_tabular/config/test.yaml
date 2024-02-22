@@ -1,0 +1,15 @@
+env:
+  constraints: [1.]
+  num_states: 10
+  num_actions: 5
+  cmdp_gamma: 0.8
+  trajectory_collection_episodes: 100
+alg:
+  lambda_bound: 1
+  online_algorithm_lr: 5.
+  max_iteration: 100
+  converge_threshold: 0.02
+  FQI_max_epoches: 40
+  FQI_gamma: 0.8
+  FQE_max_epoches: 40
+  FQE_gamma: 0.8
